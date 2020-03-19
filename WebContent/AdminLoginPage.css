@@ -1,0 +1,111 @@
+@charset "ISO-8859-1";
+body
+{
+background-image:url("indianflag.jpg");
+background-size:cover;
+background-attachment: fixed;
+font-family:sans-serif;
+}
+
+.loginbox
+{
+
+	width:320px;
+	height:400px;
+	background:transparent;
+	color:white;
+	top:50%;
+	left:70%;
+	position:absolute;
+	transform:translate(-50%,-50%);
+	box-sizing:border-box;
+	padding:80px 40px;
+	border-width:thick;
+	border-style:solid;
+}
+
+.avatar
+{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	position:absolute;
+	top:-55px;
+	//left:calc(50% -60px);
+	left:33%;
+}
+
+
+h2
+{
+	font-size:50px;
+	font-family:"times new roman";
+	color:orange;
+}
+
+h1
+{
+	margin:0;
+	padding:0 0 20px;
+	text-align:center;
+	font-size:20px;	
+}
+
+.loginbox p
+{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+}
+
+.loignbox input
+{
+	width:100%;
+	margin-bottom:40px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+	border:none;
+	border-bottom:2px solid #fff;
+	background:transparent;
+	outline:none;
+	height:40px;
+	color:darkgray;;
+	font-size:16px;
+}
+
+.loginbox input[type="submit"]
+{
+	border:none;
+	outline:none;
+	height:40px;
+	width:200px;
+	background:#fb2525;
+	color:#fff;
+	font-size:18px;
+	border-radius:80px;
+	
+}
+
+.loginbox input[type="submit"]:hover
+{
+   cursor:pointer;
+   background:#ffc107;
+   color:#000;
+   
+}
+
+
+.loginbox a
+{
+	text-decoration:none;
+	font-size:15px;
+	line-height:20px;
+	color:darkgray;
+}
+
+.loginbox a:hover
+{
+	color:red;
+}

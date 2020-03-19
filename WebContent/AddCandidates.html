@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.logo
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+body{
+background-image:url("indianflag.jpg");
+background-size:cover;
+background-attachment: fixed;
+color:white;
+}
+tr
+{
+	color:white;
+}
+h1
+{
+	font-size:45px;
+	color:red;
+	text-align:center;
+}
+input[type="text"],input[type="file"]
+{
+	border:none;
+	border-bottom:2px solid white;
+	background:transparent;
+	outline:none;
+	height:40px;
+	color:white;
+	font-size:16px;
+}
+input[type="submit"],input[type="button"]
+{
+	border:none;
+	outline:none;
+	height:40px;
+	width:200px;
+	background:#fb2525;
+	color:#fff;
+	font-size:18px;
+	border-radius:80px; 
+}
+input[type="submit"]:hover
+{
+   cursor:pointer;
+   background:#ffc107;
+   color:#000;
+   
+}
+input[type="button"]:hover
+{
+   cursor:pointer;
+   background:#ffc107;
+   color:#000;
+   
+}
+
+</style>
+
+<meta charset="ISO-8859-1">
+<title>Add Candidates</title>
+</head>
+<body>
+<img  src="logo.png" class="logo"></img>
+<h1 align="center">Add candidate</h1>
+<form action="./AddCandidate" method="post" enctype="multipart/form-data">
+
+<table align="center" >
+<tr>
+<td>Candidate Name:</td>
+<td><input type="text" name="candidatename" required></td>
+</tr>
+
+<tr>
+<td>Party Name:</td>
+<td><input type="text" name="partyname" required></td>
+</tr>
+
+<tr>
+<td>Candidate Photo:</td>
+<td><input type="file" name="candidatephoto" required></td>
+</tr>
+
+<tr>
+<td>Party Symbol:</td>
+<td><input type="file" name="partysymbol" required></td>
+</tr>
+
+<tr>
+<td><input type="submit" value="Register"></td>
+<td><input type="button" value="Back To Home Page" onclick="location.href='http://localhost:8081/Evoting/AdminDashboard.html';"></td>
+</tr>
+</form>
+
+</body>
+</html>

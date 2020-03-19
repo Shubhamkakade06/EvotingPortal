@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Homepage</title>
+<link rel="stylesheet" type="text/css" href="HomepageStyle.css">
+<script src = "http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src = "http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+</head>
+<body>
+<img src="logo.png" class="logo"></img>
+<marquee direction="left" scrollamount="10">WELCOME TO E-VOTING SYSTEM</marquee>
+
+<ul>
+	<li><a href="HomePage.html">Home</a></li>
+	<li><a href="LoginPage.html" target="_blank">Login</a></li>
+	<li><a href="RegistrationPage.html" target="_blank">Register</a></li>
+	<li><a href="AdminLoginPage.html" target="_blank">Admin Login</a></li>
+	<li><a href="ContactUs.html" target="_blank">Contact Us</a></li>
+	<li><a href="AboutUs.html" target="_blank">About</a></li>
+	
+</ul>
+<br>
+<br>
+<br>
+<br>
+<div class="row">
+    <div class="column">
+	<a href="LoginPage.html"target="_blank"><img src="search.png"  style="width:100%"></img></a>
+	</div>
+	
+	<div class="column">
+	<a href="LoginPage.html" target="_blank"><img src="votingschedule.png" style="width:100%" ></img></a>
+	</div>
+	
+	<div class="column">
+	<a href="LoginPage.html" target="_blank"><img src="Result.png" class="search" style="width:100%"></img></a>
+	</div>
+	
+</div>
+
+
+<iframe width="1500" height="515" src="https://www.youtube.com/embed/mQSpXfoMQ24" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<!-- <table border=1 cellspacing=8 cellpadding=20 align="left">
+<tr>
+<th>e-Votings schedule</th>
+<th>FutureEvents</th>
+<th>Results</th>
+</tr>
+<tr>
+<td><img src="currentevents.jpg" alt="" border=0 height=100 width=100></img></td>
+<td><a href="LoginPage.html"><img src="futureevents.png" alt="" border=0 height=100 width=100></img></a></td>
+<td><img src="noticeresulticon.png" alt="" border=0 height=100 width=100></img></td>
+</tr>
+</table><br> -->
+
+<textarea readonly rows="10" cols="111">              Internet is increasingly becoming an important medium for dissemination of information and conducting business. Enabling transactions through Internet thus becomes essential as a means to provide better flexibility and convenience to share holders and further increasing efficiency of decision making in the capital market.
+ Safety of transactions is however, a very crucial issue in Internet based solutions. This assumes significance in case of electronic voting since it involves votes from share holders. Further, electronic voting is also time critical.The lapse or failure to deliver the vote in time for voting to the scrutinizer may lead to loss of vote. Hence, an Internet application for electronic voting necessarily demands an elaborate and robust infrastructure that ensures efficient execution, secured processing and guaranteed delivery of transactions.</textarea>
+
+</body>
+<script>
+      $(document).ready(function() {
+         function disablePrev() { window.history.forward() }
+         window.onload = disablePrev();
+         window.onpageshow = function(evt) { if (evt.persisted) disableBack() }
+         window.onunload = function () { alert('You clicked back button !');}
+      });
+   </script>
+</html>

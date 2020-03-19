@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Search Details In Voting List</title>
+<style>
+input[type="text"]
+{
+	border:none;
+	border-bottom:2px solid black;
+	background:transparent;
+	outline:none;
+	height:40px;
+	color:black;
+	font-size:16px;
+	text-align:center;
+}
+input[type="submit"],input[type="button"]
+{
+	border:none;
+	outline:none;
+	height:40px;
+	width:200px;
+	background:#fb2525;
+	color:#fff;
+	font-size:18px;
+	border-radius:80px; 
+}
+input[type="submit"]:hover
+{
+   cursor:pointer;
+   background:#ffc107;
+   color:#000;
+   
+}
+input[type="submit"]
+{
+	border:none;
+	outline:none;
+	height:40px;
+	width:200px;
+	background:#fb2525;
+	color:#fff;
+	font-size:18px;
+	border-radius:80px; 
+}
+input[type="submit"]:hover
+{
+   cursor:pointer;
+   background:#ffc107;
+   color:#000;
+   
+}
+button
+{
+	border:none;
+	outline:none;
+	height:40px;
+	width:200px;
+	background:#fb2525;
+	color:#fff;
+	font-size:18px;
+	Right:50%;
+	border-radius:80px;
+	display:inline-block;
+}
+button:hover
+{
+   cursor:pointer;
+   background:#ffc107;
+   color:#000;
+   
+}
+.emailidbox
+{
+
+	width:820px;
+	height:400px;
+	background:transparent;
+	background-color:#E6E6FA;
+	color:blue;
+	top:50%;
+	left:50%;
+	position:absolute;
+	transform:translate(-50%,-50%);
+	box-sizing:border-box;
+	padding:80px 40px;
+	border-width:thick;
+	border-color:white;
+	border-style:none;
+}
+.emailidbox input
+{
+	width:100%;
+	margin-bottom:8px;
+}
+.emailidbox input[type="text"]
+{
+	font-family:"Times New Roman";
+	border:2px solid blue;
+	border-radius:4px;
+	background:solid;
+	outline:8px;
+	height:40px;
+	width:500px;
+	color:darkgray;;
+	font-size:22px;
+	padding:1px
+}
+.emailidbox input[type="submit"],input[type="button"]
+{
+	border:none;
+	outline:none;
+	height:40px;
+	width:200px;
+	background:#fb2525;
+	color:#fff;
+	font-size:18px;
+	border-radius:80px;
+	
+}
+
+.emailidbox input[type="submit"]:hover
+{
+   cursor:pointer;
+   background:#ffc107;
+   color:#000;
+   
+}
+.emailidbox button:hover
+{
+   cursor:pointer;
+   background:#ffc107;
+   color:#000;
+   
+}
+.logo
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+</style>
+</head>
+<body bgcolor=white>
+<img src="logo.png" class="logo"></img>
+
+<br><br>
+<br>
+<div class="emailidbox">
+<h2 align="center">Search Details in Voting List</h2>
+<table>
+<form action="./SearchInVotingList" method="post">  
+<tr>
+<td>Enter your Registered Email Id   :</td><td><input type="text" name="emailid"/><br/></td> 
+</tr>
+<br> 
+<tr>
+<td><input type="submit" value="search"/></td>
+</form>
+<td><button type="button" onclick=location.href="Dashboard.html">Back</button></td>
+</tr>
+
+</table>
+</div>
+</body>
+</html>

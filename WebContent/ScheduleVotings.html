@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Schedule Votings</title>
+<link rel="stylesheet" href="Dashboardstyle.css">
+<style type="text/css">
+.logo
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+table
+{
+	background:transparent;\
+	margin-left:auto; 
+    margin-right:auto;
+}
+td
+{
+	text-align:"center";
+	vertical-align:middle;
+}
+button,input[type="submit"]
+{
+	border:none;
+	outline:none;
+	height:40px;
+	width:200px;
+	background:#fb2525;
+	color:#fff;
+	font-size:18px;
+	border-radius:80px;
+	
+}
+input[type="submit"]:hover
+{
+   cursor:pointer;
+   background:#ffc107;
+   color:#000;
+   
+}
+button:hover
+{
+   cursor:pointer;
+   background:#ffc107;
+   color:#000;
+   
+}
+</style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="sidebar">
+    
+        <h2>Welcome To E-Voting Portal</h2>
+        <ul>
+            <li><a href="HomePage.html"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="#"><i class="fas fa-user"></i>Profile</a></li>
+            <li><a href="#"><i class="fas fa-address-card"></i>About</a></li>
+            <li><a href="EnterEmailid.html"><i class="fas fa-address-card"></i>Change Profile Password</a></li>
+            <li><a href="./Logout"><i class="fas fa-address-card"></i>Logout</a></li>
+        </ul> 
+        
+    </div>
+    <div class="main_content">
+        <div class="header">Welcome!! Have a nice day.</div>  
+        <img src="logo.png" class="logo"></img>
+        <h1 align="center" >Schedule votings</h1>
+        <br>
+        <br>
+        <br>
+		
+		<table align="center">
+		<form action="./ScheduleVotings" method="post">
+		<tr>
+		<td>Select Voting Date:</td>
+		<td><input type="date" name="votingdate" required></tr>
+		</tr>
+		<tr>
+		<td><input type="submit" value="schedule"></td>
+		<td><button onclick=location.href="AdminDashboard.html">Back</button></td>
+		</tr>
+			</form>
+		</table>
+	</div>
+	</div>
+		
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+.emailidbox
+{
+
+	width:820px;
+	height:400px;
+	background:transparent;
+	background-color:#E6E6FA;
+	color:blue;
+	top:50%;
+	left:50%;
+	position:absolute;
+	transform:translate(-50%,-50%);
+	box-sizing:border-box;
+	padding:80px 40px;
+	border-width:thick;
+	border-color:white;
+	border-style:none;
+}
+.emailidbox input
+{
+	width:100%;
+	margin-bottom:8px;
+}
+.emailidbox input[type="text"]
+{
+	font-family:"Times New Roman";
+	border:2px solid blue;
+	border-radius:4px;
+	background:solid;
+	outline:8px;
+	height:40px;
+	width:500px;
+	color:darkgray;;
+	font-size:22px;
+	padding:1px
+}
+.emailidbox input[type="submit"],button
+{
+	border:none;
+	outline:none;
+	height:40px;
+	width:200px;
+	background:#fb2525;
+	color:#fff;
+	font-size:18px;
+	border-radius:80px;
+	
+}
+
+.emailidbox input[type="submit"]:hover
+{
+   cursor:pointer;
+   background:#ffc107;
+   color:#000;
+   
+}
+button:hover
+{
+   cursor:pointer;
+   background:#ffc107;
+   color:#000;
+   
+}
+table
+{
+	background:transparent;
+}
+td
+{
+	text-align:"center";
+	vertical-align:middle;
+}
+.logo
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+</style>
+<head>
+<meta charset="ISO-8859-1">
+<title>Forget Password</title>
+</head>
+<body bgcolor=white>
+<img src="logo.png" class="logo"></img>
+
+<br><br>
+<br>
+<div class="emailidbox">
+<h2 align="center">Enter Registered EmailId To change Password</h2>
+<form action="./ForgetPassword" method="post">
+<table align="center">
+<tr>
+<td><h2>Enter Email id:</h2></td>
+<td><input type="text" name="emailid" placeholder="Enter Email id" required></td>
+</tr>
+<tr>
+<td  align="center"><input type="submit" value="Submit"></td>
+<td><button class="button" align="center" onclick=location.href="Dashboard.html">Back</button></td>
+</tr>
+</table>
+</form>
+</div>
+</body>
+</html>

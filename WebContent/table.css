@@ -1,0 +1,96 @@
+@charset "ISO-8859-1";
+h1 
+{ 
+	 color: #7c795d;
+	 font-family: 'Trocchi', serif; 
+	 font-size: 45px; 
+	 font-weight: normal; 
+	 line-height: 48px; 
+	 margin: 0; 
+}
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+table {
+  border-collapse: collapse;
+  font-size:18px;
+  font-family:"Times New Roman";
+}
+ tr:nth-child(even)
+ {
+   background-color: #f2f2f2;
+ }
+
+ tr:hover 
+ {
+    background-color: #ddd;
+ }
+.backbutton
+{
+	position:absolute;
+	border:none;
+    border-radius:80px;
+	outline:none;
+	height:40px;
+	width:200px;
+	background:#fb2525;
+	color:#fff;
+	font-size:18px;
+	left:45%;
+	}
+.backbutton:hover
+{
+   cursor:pointer;
+   background:#ffc107;
+   color:#000;
+   
+}
+.logo
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+
+}
+.verifiedbackbutton
+{
+	position:absolute;
+	border:none;
+    border-radius:80px;
+	outline:none;
+	height:40px;
+	width:200px;
+	background:#fb2525;
+	color:#fff;
+	font-size:18px;
+	left:35%;
+	}
+.verifiedbackbutton:hover
+{
+   cursor:pointer;
+   background:#ffc107;
+   color:#000;
+   
+}
+.unverifiedbackbutton
+{
+	position:absolute;
+	border:none;
+    border-radius:80px;
+	outline:none;
+	height:40px;
+	width:200px;
+	background:#fb2525;
+	color:#fff;
+	font-size:18px;
+	left:55%;
+	}
+.unverifiedbackbutton:hover
+{
+   cursor:pointer;
+   background:#ffc107;
+   color:#000;
+   
+}

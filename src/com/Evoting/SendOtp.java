@@ -21,7 +21,7 @@ public class SendOtp {
 				 {
 			 		protected PasswordAuthentication getPasswordAuthentication()
 			 		{
-			 			return new PasswordAuthentication("evotingportal2019@gmail.com","Evoting@2019");
+			 			return new PasswordAuthentication("EMAILID@gmail.com","PASSWORD");
 			 		}
 				 });
 		 try
